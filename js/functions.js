@@ -53,7 +53,6 @@ function make65Question() {
   answer = get65Answer(wager);
   document.getElementById("question").innerHTML = text;
   document.getElementById("answer").innerHTML = "Answer: " + answer;
-  current = "threeToTwo";
   return {
     question: text,
     answer: answer,
